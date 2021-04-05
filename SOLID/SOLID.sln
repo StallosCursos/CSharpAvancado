@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRP", "SRP", "{8C882ED4-2B04-48A5-98B8-43BD7B4B8B30}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SRP", "1 - SRP", "{8C882ED4-2B04-48A5-98B8-43BD7B4B8B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP-Violacao", "SRP-Violacao\SRP-Violacao.csproj", "{CEDD3FBC-9550-4B8E-8AD8-E72D0FDA0C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP-Violacao", "SRP-Violacao\SRP-Violacao.csproj", "{CEDD3FBC-9550-4B8E-8AD8-E72D0FDA0C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP - AplicandoPrincipio", "SRP - AplicandoPrincipio\SRP - AplicandoPrincipio.csproj", "{8D1DF615-B817-4D6A-B157-DD308E4B1176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP - AplicandoPrincipio", "SRP - AplicandoPrincipio\SRP - AplicandoPrincipio.csproj", "{8D1DF615-B817-4D6A-B157-DD308E4B1176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - OCP", "2 - OCP", "{442814CF-5588-4032-BA7B-9AC5CB50EBE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - LSP", "3 - LSP", "{D8CA90F4-64D2-4DB3-B68B-A8D0AF44FCBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ISP", "4 - ISP", "{6AB8EBA5-7C1D-4844-AD69-64FFD48C86AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - DIP", "5 - DIP", "{08EB95EC-4FD2-437E-962B-95F9C6C8BDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP - Violacao", "OCP - Violacao\OCP - Violacao.csproj", "{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP - AplicandoPrincipio", "OCP - AplicandoPrincipio\OCP - AplicandoPrincipio.csproj", "{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +35,14 @@ Global
 		{8D1DF615-B817-4D6A-B157-DD308E4B1176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1DF615-B817-4D6A-B157-DD308E4B1176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1DF615-B817-4D6A-B157-DD308E4B1176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +50,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CEDD3FBC-9550-4B8E-8AD8-E72D0FDA0C77} = {8C882ED4-2B04-48A5-98B8-43BD7B4B8B30}
 		{8D1DF615-B817-4D6A-B157-DD308E4B1176} = {8C882ED4-2B04-48A5-98B8-43BD7B4B8B30}
+		{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7} = {442814CF-5588-4032-BA7B-9AC5CB50EBE5}
+		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89} = {442814CF-5588-4032-BA7B-9AC5CB50EBE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {400F001E-5502-4992-92D8-BB75861E84FF}
