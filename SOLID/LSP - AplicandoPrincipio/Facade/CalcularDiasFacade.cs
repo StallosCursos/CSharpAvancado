@@ -1,8 +1,8 @@
-﻿using OCP___AplicandoPrincipio.Entitites.Manutencao;
-using OCP___AplicandoPrincipio.Entitites.Projetos;
-using OCP___AplicandoPrincipio.Entitites.Suporte;
+﻿using LSP___Violacao.Entitites.Manutencao;
+using LSP___Violacao.Entitites.Projetos;
+using LSP___Violacao.Entitites.Suporte;
 
-namespace OCP___AplicandoPrincipio.Facade
+namespace LSP___Violacao.Facade
 {
     public class CalcularDiasFacade
     {
