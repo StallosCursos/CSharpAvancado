@@ -10,12 +10,12 @@ namespace SRP_Violacao
     public class CalculoDias
     {
         // Metodo unico para calcular dias executados pelo tempo
-        public int ApurarDias(ITempoExecucao tempoExecucao)
+        /*public int ApurarDias(ITempoExecucao tempoExecucao)
         {
             return (tempoExecucao.DataFim - tempoExecucao.DataInicio).Days;
-        }
+        }*/
 
-        /*public int ApurarDias(ITempoExecucao tempoExecucao)
+        public int ApurarDias(ITempoExecucao tempoExecucao)
         {
             int dias = 0;
 
@@ -41,6 +41,6 @@ namespace SRP_Violacao
             }
 
             return dias;
-        }*/
+        }
     }
 }

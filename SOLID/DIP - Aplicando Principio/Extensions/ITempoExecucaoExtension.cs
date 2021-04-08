@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using LSP___Violacao.Entitites;
+using DIP___Aplicando_Principio.Entitites;
 
-namespace LSP___Violacao.Extensions
+namespace DIP___Aplicando_Principio.Extensions
 {
     public static class ITempoExecucaoExtension
     {

@@ -17,13 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ISP", "4 - ISP", "{6AB8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - DIP", "5 - DIP", "{08EB95EC-4FD2-437E-962B-95F9C6C8BDA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP - Violacao", "OCP - Violacao\OCP - Violacao.csproj", "{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP - Violacao", "OCP - Violacao\OCP - Violacao.csproj", "{876A8F07-F2D8-4BA5-9BB5-442AE3620DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP - AplicandoPrincipio", "OCP - AplicandoPrincipio\OCP - AplicandoPrincipio.csproj", "{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP - AplicandoPrincipio", "OCP - AplicandoPrincipio\OCP - AplicandoPrincipio.csproj", "{39CF0814-3BC7-4A49-B2DE-E8771DC35E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP - Violacao", "LSP - Violacao\LSP - Violacao.csproj", "{3A53D991-F7E2-4F74-894B-9AD4AC16B584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP - Violacao", "LSP - Violacao\LSP - Violacao.csproj", "{3A53D991-F7E2-4F74-894B-9AD4AC16B584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP - AplicandoPrincipio", "LSP - AplicandoPrincipio\LSP - AplicandoPrincipio.csproj", "{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP - AplicandoPrincipio", "LSP - AplicandoPrincipio\LSP - AplicandoPrincipio.csproj", "{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP - Violacao", "ISP - Violacao\ISP - Violacao.csproj", "{54B21B7F-2488-4BE5-B497-DFBD98D329D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP - Aplicando Principio", "ISP - Aplicando Principio\ISP - Aplicando Principio.csproj", "{43710066-AB4D-494C-96E3-1AB36844B37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP - Aplicando Principio", "DIP - Aplicando Principio\DIP - Aplicando Principio.csproj", "{E0C5485C-354B-4E86-A179-E8EED13A3AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,18 @@ Global
 		{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B21B7F-2488-4BE5-B497-DFBD98D329D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B21B7F-2488-4BE5-B497-DFBD98D329D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B21B7F-2488-4BE5-B497-DFBD98D329D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B21B7F-2488-4BE5-B497-DFBD98D329D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43710066-AB4D-494C-96E3-1AB36844B37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43710066-AB4D-494C-96E3-1AB36844B37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43710066-AB4D-494C-96E3-1AB36844B37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43710066-AB4D-494C-96E3-1AB36844B37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C5485C-354B-4E86-A179-E8EED13A3AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C5485C-354B-4E86-A179-E8EED13A3AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C5485C-354B-4E86-A179-E8EED13A3AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C5485C-354B-4E86-A179-E8EED13A3AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +84,9 @@ Global
 		{39CF0814-3BC7-4A49-B2DE-E8771DC35E89} = {442814CF-5588-4032-BA7B-9AC5CB50EBE5}
 		{3A53D991-F7E2-4F74-894B-9AD4AC16B584} = {D8CA90F4-64D2-4DB3-B68B-A8D0AF44FCBB}
 		{1FD21BD7-D593-4CB5-A598-3B9398E7D0EC} = {D8CA90F4-64D2-4DB3-B68B-A8D0AF44FCBB}
+		{54B21B7F-2488-4BE5-B497-DFBD98D329D0} = {6AB8EBA5-7C1D-4844-AD69-64FFD48C86AE}
+		{43710066-AB4D-494C-96E3-1AB36844B37C} = {6AB8EBA5-7C1D-4844-AD69-64FFD48C86AE}
+		{E0C5485C-354B-4E86-A179-E8EED13A3AE3} = {08EB95EC-4FD2-437E-962B-95F9C6C8BDA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {400F001E-5502-4992-92D8-BB75861E84FF}

@@ -1,6 +1,6 @@
-﻿using LSP___Violacao.Entitites;
+﻿using ISP___Violacao.Entitites;
 
-namespace LSP___Violacao.Facade
+namespace ISP___Aplicando_Principio.Calculos.Interfaces
 {
     public interface ICalcularDias<TTempo> where TTempo : ITempoExecucao
     {
