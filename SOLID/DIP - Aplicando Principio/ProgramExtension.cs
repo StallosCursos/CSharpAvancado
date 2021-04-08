@@ -25,8 +25,10 @@ namespace DIP___Aplicando_Principio
         private static void ConfigureBusca()
         {
             _serviceDescriptors.AddTransient<IBuscaFeriadosEstaduais, BuscaFeriadosEstaduaisDisco>();
-            _serviceDescriptors.AddTransient<IBuscaFeriadosNacionais, BuscarFeriadosNacionaisDisco>();
+            //_serviceDescriptors.AddTransient<IBuscaFeriadosNacionais, BuscarFeriadosNacionaisDisco>();
+            _serviceDescriptors.AddTransient<IBuscaFeriadosNacionais, BuscaFeriadosNacionaisBanco>();
         }
+
 
         private static void ConfigureCalculos()
         {
