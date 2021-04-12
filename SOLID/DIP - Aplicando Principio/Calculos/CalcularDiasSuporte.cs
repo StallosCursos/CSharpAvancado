@@ -14,7 +14,6 @@ namespace DIP___Aplicando_Principio.Calculos
         public CalcularDiasSuporte(IBuscaFeriadosEstaduais buscaFeriadosEstaduais) =>
             _buscaFeriadosEstaduais = buscaFeriadosEstaduais;
         
-
         public int Calcular(Atendimento tempo)
         {
             return tempo.DatasNoIntervalo().Where(
