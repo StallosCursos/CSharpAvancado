@@ -184,9 +184,7 @@ namespace CadastroCliente.Apresentacao
             this.dtgEmderecos.RowTemplate.Height = 25;
             this.dtgEmderecos.Size = new System.Drawing.Size(762, 202);
             this.dtgEmderecos.TabIndex = 15;
-            this.dtgEmderecos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgEmderecos_CellContentClick);
             this.dtgEmderecos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgEmderecos_CellDoubleClick);
-            this.dtgEmderecos.DoubleClick += new System.EventHandler(this.dtgEmderecos_DoubleClick);
             // 
             // frmCadastroCliente
             // 

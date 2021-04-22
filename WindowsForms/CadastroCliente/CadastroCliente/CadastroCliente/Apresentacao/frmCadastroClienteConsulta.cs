@@ -1,4 +1,5 @@
 ﻿using CadastroCliente.InfraEstrutura;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,6 +34,11 @@ namespace CadastroCliente.Apresentacao
         {
             frmCadastroCliente frmCadastroCliente = new frmCadastroCliente();
             frmCadastroCliente.ShowDialog();
+        }
+
+        private void frmCadastroClienteConsulta_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -60,16 +60,6 @@ namespace CadastroCliente.Apresentacao
             dtgEmderecos.DataSource = _cliente.Endereco;
         }
 
-        private void dtgEmderecos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void dtgEmderecos_DoubleClick(object sender, EventArgs e)
-        {
-            _enderecoSelecionado = (sender as Endereco);
-        }
-
         private void dtgEmderecos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             var endereco = (dtgEmderecos.Rows[e.RowIndex].DataBoundItem as Endereco);

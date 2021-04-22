@@ -8,8 +8,9 @@ namespace CadastroCliente.InfraEstrutura.EntityConfiguration
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
-            builder.HasKey(t => t.Id);
             builder.ToTable("Endereco");
+
+            builder.HasKey(t => t.Id);
 
             builder.Property(t => t.IdCliente).IsRequired();
             builder.Property(t => t.Logradouro).IsRequired();

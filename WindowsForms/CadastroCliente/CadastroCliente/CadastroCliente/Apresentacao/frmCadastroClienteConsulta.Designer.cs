@@ -114,6 +114,7 @@ namespace CadastroCliente.Apresentacao
             this.Controls.Add(this.pnlFiltros);
             this.Name = "frmCadastroClienteConsulta";
             this.Text = "Consulta Clientes";
+            this.Load += new System.EventHandler(this.frmCadastroClienteConsulta_Load);
             this.pnlFiltros.ResumeLayout(false);
             this.pnlFiltros.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgClientes)).EndInit();

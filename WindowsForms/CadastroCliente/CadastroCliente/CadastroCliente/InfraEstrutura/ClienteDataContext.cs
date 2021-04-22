@@ -1,4 +1,5 @@
-﻿using CadastroCliente.Model;
+﻿using CadastroCliente.InfraEstrutura.EntityConfiguration;
+using CadastroCliente.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace CadastroCliente.InfraEstrutura
