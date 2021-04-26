@@ -19,7 +19,7 @@ namespace ConsoleReflaction.DaoReflaction
 
         public string Delete()
         {
-            var where = this.Colunas().Where(t => !t.Chave).Select(t => $"{ t.Nome } = @{ t.Nome }").FirstOrDefault();
+            var where = this.Colunas().Where(t => t.Chave).Select(t => $"{ t.Nome } = @{ t.Nome }").FirstOrDefault();
 
             return $"DELETE FROM { _tabela } WHERE { where }";
         }
@@ -29,7 +29,7 @@ namespace ConsoleReflaction.DaoReflaction
             var colunas = this.Colunas().Where(t => !t.Chave).Select(t => t.Nome).ToArray();
             var parametros = colunas.Select(t => $"@{t}");
 
-            return $"INSERT INTO { _tabela } ( { string.Join(",", colunas) } ) VALUES ( { string.Join(",", colunas) }  ) ";
+            return $"INSERT INTO { _tabela } ( { string.Join(",", colunas) } ) VALUES ( { string.Join(",", parametros) }  ) ";
         }
 
         public string Select()
@@ -41,7 +41,7 @@ namespace ConsoleReflaction.DaoReflaction
         public string Update()
         {
             var set = this.Colunas().Where(t => !t.Chave).Select(t => $"{ t.Nome } = @{ t.Nome }").ToArray();
-            var where = this.Colunas().Where(t => !t.Chave).Select(t => $"{ t.Nome } = @{ t.Nome }").FirstOrDefault();
+            var where = this.Colunas().Where(t => t.Chave).Select(t => $"{ t.Nome } = @{ t.Nome }").FirstOrDefault();
 
             return $"UPDATE { _tabela } SET { string.Join(",", set) } WHERE { where }";
         }
@@ -66,7 +66,8 @@ namespace ConsoleReflaction.DaoReflaction
 
         public string Tabela()
         {
-            return typeof(TEntity).GetCustomAttribute<TabelaAttribute>().Nome;
+            var attribute = typeof(TEntity).GetCustomAttribute<TabelaAttribute>();
+            return attribute.Nome;
         }
     }
 }

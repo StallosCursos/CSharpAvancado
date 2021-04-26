@@ -37,6 +37,7 @@ namespace ConsoleReflaction
             var somenteStrings = informacoesPropriedades.Where(t => t.PropertyType == typeof(string)).ToArray();
 
             PropertyInfo propriedadeNome = informacoesPropriedades.FirstOrDefault(t => t.Name == "Nome");
+
             propriedadeNome.SetValue(cliente, "Conrado Basso");
 
             var value = propriedadeNome.GetValue(cliente);

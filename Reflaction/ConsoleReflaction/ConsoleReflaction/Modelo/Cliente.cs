@@ -14,6 +14,8 @@ namespace ConsoleReflaction.Modelo
             Endereco = new List<Endereco>();
         }
 
+        public int Xyz;
+
         [Coluna("Id", chave: true)]
         public int Id { get; set; }
 
